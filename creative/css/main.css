@@ -757,7 +757,7 @@ ion-icon {
    
 }
 
-@media (max-width: 400px) {
+@media (max-width: 470px) {
     .container {
         padding: 0 20px;
     }
@@ -861,38 +861,109 @@ ion-icon {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 400px) {
+    .container {
+        padding: 0 20px;
+    }
+    header {
+        height: 1200px;
+    }
+    .header-top__menu {
+        display: none;
+    }
+    .center {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .strategy__top {
+        flex-wrap: wrap;
+    }
+    .strategy-top__left {
+        margin-right: 0;
+    }
+    footer {
+        height: 100%;
+    }
+    .footer__content {
+        flex-wrap: wrap;
+    }
+    .footer-content__colum {
+        flex-wrap: wrap;
+    }
+    .header__content {
+        margin-top: 100px;
+    }
+    .header-content__social a {
+        margin: 15px 0;
+    }
+    .one {
+        top: 250px;
+        left: 0;
+    }
+    .four {
+        top: 400px;
+        right: 0;
+    }
+    .f {
+        width: 200px;
+    }
+    .header-titlte__item {
+        font-size: 35px;
+        width: 295px;
+    }
+    .header-bottom__ion {
+        top: 800px;
+    }
+    .strategy-top__right {
+        margin-top: 150px;
+        width: 100%;
+    }
+    .strategy-right__text {
+        width: 100%;
+    }
+    .origin-content__title {
+        font-size: 16px;
+        width: 100%;
+    }
+    .origin {
+        padding-top: 50px;
+    }
+    .origin-item__text {
+        font-size: 10px;
+    }
+    .origin-item__title {
+        font-size: 18px;
+    }
+    .stroke {
+        margin-top: 90px;
+    }
+    .portfolio {
+        margin-top: 50px;
+        height: 100%;
+    }
+    .portfolio__top {
+        height: 100%;
+    }
+    .footer__content {
+        margin-top: 0;
+        padding: 50px 0;
+    }
+    .footer {
+        height: 100%;
+    }
+    .footer__content {
+        height: 100%;
+    }
+    .footer-colum__phone {
+        margin: 0 8px;
+        width: 130px;
+    }
+    .footer-phone__text {
+        width: 120px;
+        font-size: 13px;
+        margin: 0;
+    }
+}
 
 
 
