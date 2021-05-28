@@ -1222,7 +1222,7 @@ button:focus {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 470px) {
     .container {
         padding: 0 20px;
     }
