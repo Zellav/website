@@ -1,0 +1,922 @@
+/* mono font-family: "Maison Neue"; */
+/* title font-family: "RZ"; */
+/* text font-family: "Arial"; */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 150px;
+    height: 100%;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "RZ";
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 1500px;
+}
+
+.header__top {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo__link {
+    font-family: "RZ";
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.header__right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top__menu {
+    margin-right: 200px;
+}
+
+.header-top__menu ul {
+    display: flex
+}
+
+.header-top__menu a {
+    font-family: "Arial";
+    color: #000;
+    margin-left: 80px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.en_lang {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+.en_lang p{
+    font-size: 6vw;
+}
+
+.lang_buttons {
+	text-align: right;
+}
+
+.lang_buttons > .button {
+	display: inline-block;
+	padding: 5px 15px;
+    font-family: "RZ";
+    color: #000;
+    font-size: 13px;
+
+}
+
+.lang_buttons > .en_lang {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+    font-family: "Arial";
+    color: #000;
+    font-size: 13px;
+}
+
+.header-titlte__item {
+    font-size: 6vw;
+    font-weight: 400;
+    max-width: 1400px;
+    line-height: 1.1;
+    font-family: "RZ";
+}
+
+.header__content {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content__social {
+    margin-top: 20px;
+}
+
+.header-content__social a {
+    display: block;
+    text-decoration: none;
+    font-family: "RZ";
+    font-size: 13px;
+    color: #000;
+    margin: 40px 0
+}
+
+img {
+    width: 100%;
+}
+
+.header__content {
+    position: relative;
+}
+
+.one {
+    margin-top: 100px;
+    position: absolute;
+    top: 530px;
+    left: 50px;
+    z-index: -1;
+}
+
+.four {
+    position: absolute;
+    right: 200px;
+    top: 700px;
+    z-index: -1;
+}
+
+.f {
+    width: 30vw;
+    height: 30vw;
+}
+
+.a {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.strategy {
+    margin-top: 250px;
+}
+
+.strategy__top {
+    display: flex;
+    justify-content: center;
+}
+
+.strategy-top__title {
+    font-family: "RZ";
+    font-weight: 100;
+    margin: 10px 0;
+    font-size: 30px
+}
+
+.strategy-top__left {
+    position: relative;
+    margin-right: 250px;
+}
+
+.strategy-top__left::before {
+    content: 'Skills';
+    position: absolute;
+    top: -50px;
+    font-family: "Maison Neue";
+    font-size: 13px;
+}
+
+.strategy-top__right {
+    position: relative;
+}
+
+.strategy-top__right::before {
+    content: 'Mission & Vision';
+    position: absolute;
+    top: -50px;
+    font-family: "Maison Neue";
+    font-size: 13px;
+}
+
+.strategy-right__text {
+    width: 300px;
+    line-height: 1.8;
+    font-family: "RZ";
+}
+
+.strategy-right__btn {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.strategy-btn__link {
+    text-decoration: none;
+    font-family: "Arial";
+    color: #000;
+    position: relative;
+}
+
+.strategy-btn__link::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -16px;
+    height: 50px;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.322);
+    transition: all .5s;
+}
+
+.strategy-btn__link::after {
+    visibility: hidden;
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -16px;
+    height: 1px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.322);
+    transition: all .5s;
+}
+
+.strategy-btn__link::after {
+    display: none;
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -16px;
+    height: 1px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.322);
+    transition: all .5s;
+}
+
+.strategy-btn__link:hover::before {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.stroke {
+    margin-top: 300px;
+}
+
+.stroke-top__title {
+    text-align: center;
+    font-family: "Maison Neue"; 
+    font-size: 13px;
+}
+
+.stroke__content {
+    margin-top: 50px;
+}
+
+.stroke-content__title {
+    font-size: 50px;
+    font-family: "RZ";
+    color: #000;
+    margin: 0 -800px
+}
+
+.portfolio {
+    margin-top: 300px;
+    position: relative;
+}
+
+.portfolio__top {
+    height: 2300px;
+}
+
+.portfolio__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.port-img {
+    width: 700px;
+    margin: 100px 0;
+}
+
+.port-img:nth-child(2n) {
+    transform: translateY(350px);
+}
+
+.portfolio-timeline__middle {
+    height: 2200px;   
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.138);
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.portfolio__items {
+    position: relative;
+}
+
+.portfolio-middle__prev1 {
+    position: absolute;
+    top: -45px;
+    left: -60px;
+    width: 200px;
+    font-family: "Maison Neue";
+    font-size: 13px;
+}
+
+.portfolio-middle__prev2 {
+    position: absolute;
+    top: 280px;
+    left: -100px;
+    width: 200px;
+    font-family: "Maison Neue";
+    font-size: 1vw;
+    background-color: #fff;
+    padding: 2vw 1vw;
+}
+
+.portfolio-middle__prev3 {
+    position: absolute;
+    top: 610px;
+    left: -100px;
+    width: 200px;
+    font-family: "Maison Neue";
+    font-size: 1vw;
+    background-color: #fff;
+    padding: 2vw 1vw;
+}
+
+.portfolio-middle__prev4 {
+    position: absolute;
+    top: 930px;
+    left: -100px;
+    width: 200px;
+    font-family: "Maison Neue";
+    font-size: 1vw;
+    background-color: #fff;
+    padding: 2vw 1vw;
+}
+
+.portfolio-middle__prev5 {
+    position: absolute;
+    top: 1290px;
+    left: -100px;
+    width: 200px;
+    font-family: "Maison Neue";
+    font-size: 1vw;
+    background-color: #fff;
+    padding: 2vw 1vw;
+}
+
+.portfolio-middle__prev6 {
+    position: absolute;
+    top: 1650px;
+    left: -100px;
+    width: 200px;
+    font-family: "Maison Neue";
+    font-size: 1vw;
+    background-color: #fff;
+    padding: 2vw 1vw;
+}
+
+.portfolio__btn {
+    text-align: center;
+}
+
+.portfolio-btn__link {
+    font-family: "RZ";
+    font-size: 15px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .2s;
+}
+
+.portfolio-btn__link:hover {
+    color: rgb(138, 138, 138)
+}
+
+.footer {
+    background-color: #101010;
+    height: 600px;
+    width: 85%;
+    margin-top: 300px;
+}
+
+.footer__content {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content__colum {
+    display: flex;
+}
+
+.footer-phone__social {
+    display: flex
+}
+
+.footer-colum__phone {
+    margin-right: 150px;
+    height: 150px;
+}
+
+.footer-phone__title {
+    color: rgb(158, 158, 158);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Maison Neue";
+}
+
+.footer-phone__social {
+    margin-top: 20px;
+}
+
+.footer-social__link {
+    font-style: 13px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px
+}
+
+.footer-phone__text {
+    color: #fff;
+    margin-top: 20px;
+    width: 170px;
+    line-height: 1.4;
+    font-family: "RZ";
+}
+
+.footer-pre__title {
+    font-family: "RZ";
+    font-size: 130px;
+    color: #fff;
+    margin-top: -40px;
+}
+
+.footer-pre__text {
+    width: 300px;
+    color: #fff;
+    font-family: "RZ";
+    line-height: 1.8;
+}
+
+.footer__post {
+    display: flex;
+    margin-top: 100px;
+}
+
+.footer-post__left {
+    color: #fff;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0);
+    font-family: "Maison Neue";
+    margin-right: 50px;
+}
+
+.circular-text {
+    transform: translate(-50%, 50%);
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bolder;
+    transition: 0.5s ease-out;
+    -webkit-text-stroke: 1px rgba(100, 100, 100, 0.6);
+}
+
+.header-bottom__ion {
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ion-icon {
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+
+
+.origin {
+    height: 100vh;
+    background-color: #101010;
+    margin-top: 100px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.origin-content__subtitle {
+    font-family: "Maison Neue";
+    color: #fff;
+    font-size: 13px;
+    
+}
+
+.origin-content__title {
+    width: 320px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: "RZ";
+    margin-top: 50px;
+}
+  
+  #preloader{
+    width:100%;
+    height:100vh;
+    background:#101010;
+    overflow:hidden;
+    position:fixed;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  .origin-team__inner {
+      color: #fff;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .origin-inner__item {
+      margin: 30px 30px;
+  }
+
+  .origin-item__title {
+    font-size: 30px;
+    font-family: "RZ";
+  }
+
+  .origin-item__text {
+    font-family: "Maison Neue";
+    font-size: 13px;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 1679px) {
+    .portfolio-middle__prev2, .portfolio-middle__prev3,
+    .portfolio-middle__prev4, .portfolio-middle__prev5,
+    .portfolio-middle__prev6 {
+        padding: 2vw 0;
+    }
+    .portfolio-middle__prev2 {
+        left: -70px;
+    }
+    .portfolio-middle__prev3 {
+        left: -80px;
+    }
+    .portfolio-middle__prev4 {
+        left: -60px;
+    }
+    .portfolio-middle__prev6 {
+        left: -80px;
+    }
+  }
+
+  @media (max-width: 1658px) {
+      .port-img {
+          width: 650px;
+      }
+      .portfolio-timeline__middle {
+          height: 2000px;
+      }
+      .portfolio__top {
+          height: 2050px;
+      }
+  }
+
+  @media (max-width: 1521px) {
+    .origin-content__title {
+        font-size: 22px;
+        width: 240px;
+        line-height: 1.8;
+    }
+    .origin-item__title {
+        font-size: 22px;
+    }
+    .center {
+        justify-content: space-between;
+    }
+    .port-img {
+        width: 600px;
+    }
+    .portfolio-middle__prev4 {
+        left: -80px;
+        top: 900px;
+    }
+    .portfolio-middle__prev5 {
+        top: 1210px;
+        left: -80px;
+    }
+    .portfolio-middle__prev6 {
+        top: 1500px;
+    }
+    .portfolio-timeline__middle {
+        height: 1750px;
+    }
+    .portfolio__top {
+        height: 1850px;
+    }
+    .strategy {
+        margin-top: 50px;
+    }
+    .four {
+        right: 150px;
+    }
+  }
+
+  @media (max-width: 1521px) {
+      .container {
+          padding: 0 70px;
+      }
+    .port-img {
+        width: 500px;
+    }
+    .portfolio-middle__prev2 {
+        top: 230px;
+    }
+    .portfolio-middle__prev3 {
+        top: 510px;
+    }
+    .portfolio-middle__prev4 {
+        top: 800px;
+    }
+    .portfolio-middle__prev5 {
+        top: 1080px
+    }
+    .portfolio-middle__prev6 {
+        top: 1350px;
+    }
+    .footer {
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 1260px) {
+    .container {
+        padding: 0 70px;
+    }
+  .port-img {
+      width: 450px;
+  }
+}
+
+@media (max-width: 1160px) {
+    .container {
+        padding: 0 70px;
+    }
+    .portfolio__content {
+        flex-direction: column;
+    }
+    .port-img:nth-child(2n) {
+        transform: translateY(0px)
+    }
+    .portfolio-timeline__middle {
+        display: none;
+    }
+    .portfolio__content {
+        justify-content: space-between;
+    align-items: center;
+    }
+    .port-img {
+        width: 80%;
+        margin: 50px 0;
+    }
+    .portfolio__btn {
+        display: none;
+    }
+    .portfolio {
+        margin-top: 150px;
+        height: 3400px;
+    }
+    .footer {
+        height: 500px;
+    }
+    .footer-pre__text{
+        font-size: 14px;
+        width: 250px;
+    }
+    .footer__post {
+        display: none;
+    }
+}
+
+@media (max-width: 1033px) {
+    .footer {
+        margin-top: 50px;
+        height: 500px;
+    }
+    .header-top__menu {
+        display: none;
+    }
+   .footer__content {
+       flex-wrap: wrap;
+   }
+   .footer {
+       height: 100%;
+   }
+   .footer__pre {
+       display: flex;
+       align-items: center;
+   }
+   .footer-colum__phone {
+       margin: 0;
+   }
+   .footer-content__colum {
+       display: flex;
+       justify-content: space-around;
+       width: 100%;
+   }
+   .footer__pre {
+       display: none;
+   }
+   .portfolio {
+       height: 2700px;
+   }
+   
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 0 20px;
+    }
+    header {
+        height: 1200px;
+    }
+    .header-top__menu {
+        display: none;
+    }
+    .center {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .strategy__top {
+        flex-wrap: wrap;
+    }
+    .strategy-top__left {
+        margin-right: 0;
+    }
+    footer {
+        height: 100%;
+    }
+    .footer__content {
+        flex-wrap: wrap;
+    }
+    .footer-content__colum {
+        flex-wrap: wrap;
+    }
+    .header__content {
+        margin-top: 100px;
+    }
+    .header-content__social a {
+        margin: 15px 0;
+    }
+    .one {
+        top: 250px;
+        left: 0;
+    }
+    .four {
+        top: 400px;
+        right: 0;
+    }
+    .f {
+        width: 200px;
+    }
+    .header-titlte__item {
+        font-size: 35px;
+        width: 295px;
+    }
+    .header-bottom__ion {
+        top: 800px;
+    }
+    .strategy-top__right {
+        margin-top: 150px;
+        width: 100%;
+    }
+    .strategy-right__text {
+        width: 100%;
+    }
+    .origin-content__title {
+        font-size: 16px;
+        width: 100%;
+    }
+    .origin {
+        padding-top: 50px;
+    }
+    .origin-item__text {
+        font-size: 10px;
+    }
+    .origin-item__title {
+        font-size: 18px;
+    }
+    .stroke {
+        margin-top: 90px;
+    }
+    .portfolio {
+        margin-top: 50px;
+        height: 100%;
+    }
+    .portfolio__top {
+        height: 100%;
+    }
+    .footer__content {
+        margin-top: 0;
+        padding: 50px 0;
+    }
+    .footer {
+        height: 100%;
+    }
+    .footer__content {
+        height: 100%;
+    }
+    .footer-colum__phone {
+        margin: 0 8px;
+        width: 130px;
+    }
+    .footer-phone__text {
+        width: 120px;
+        font-size: 13px;
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(//db.onlinewebfonts.com/c/641bc93cc4c70cc2f9bb2c9abb8d3483?family=Kaiju);
+@import url(//db.onlinewebfonts.com/c/63467b9cbd4a4d7eafb5e64946ecaa18?family=Maison+Neue);
+@import url(//db.onlinewebfonts.com/c/8d223b3ad8d4819e9dcf22757e4cc2c4?family=Arial);
+
+@font-face {font-family: "RZ"; src: url("//db.onlinewebfonts.com/t/480e3d39ed40d6543721946a2d36ccff.eot"); 
+    src: url("//db.onlinewebfonts.com/t/480e3d39ed40d6543721946a2d36ccff.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/480e3d39ed40d6543721946a2d36ccff.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/480e3d39ed40d6543721946a2d36ccff.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/480e3d39ed40d6543721946a2d36ccff.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/480e3d39ed40d6543721946a2d36ccff.svg#RZ") format("svg"); }
+
+ @font-face {font-family: "Maison Neue"; src: url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.eot"); 
+    src: url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.svg#Maison Neue") format("svg"); }   
+
+    @font-face {font-family: "Arial"; src: url("//db.onlinewebfonts.com/t/8d223b3ad8d4819e9dcf22757e4cc2c4.eot"); src: 
+    url("//db.onlinewebfonts.com/t/8d223b3ad8d4819e9dcf22757e4cc2c4.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/8d223b3ad8d4819e9dcf22757e4cc2c4.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/8d223b3ad8d4819e9dcf22757e4cc2c4.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/8d223b3ad8d4819e9dcf22757e4cc2c4.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/8d223b3ad8d4819e9dcf22757e4cc2c4.svg#Arial") format("svg"); 
