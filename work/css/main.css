@@ -1,0 +1,348 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.header__navbar {
+    position: fixed;
+    padding: 0 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3px;
+    height: 90px;
+    z-index: 999;
+
+}
+
+.header__navbar::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+    width: 20vw;
+    height: 90px;
+    z-index: -1;
+}
+
+.header__navbar::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #00426B;
+    width: 80vw;
+    height: 90px;
+    z-index: -1;
+}
+
+.header-navbar__logo img {
+    width: 10vw;
+}
+
+.header-navbar__menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.header-navbar__menu a {
+    color: #fff;
+    font-size: 0.70vw;
+}
+
+.header-navbar__menu a:hover {
+    color: #FEB318;
+    border-bottom: 1.6px solid;
+    padding-bottom: 28px;
+}
+
+.header-navbar__contact {
+    display: flex;
+    align-items: center;
+}
+
+.header-contact__tel {
+    margin-right: 30px;
+}
+
+.header-contact__tel a {
+    border-bottom: 1.6px solid;
+    padding-bottom: 2px;
+    color: #FEB318;
+    font-size: 0.70vw;
+}
+
+.header-contact__tel a:hover {
+    border-bottom: 1.6px solid;
+    padding-bottom: 2px;
+    color: #ffffff;
+    font-size: 0.70vw;
+}
+
+.header-contact__make {
+    position: relative;
+    border: 1px solid #FEB318;
+    padding: 10px 30px;
+    font-size: 0.70vw;
+}
+
+.header-contact__make::before {
+    content: '';
+    background: url('../img/arrow-right.png') no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 7px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    transition: all .5s;
+    background-color: #00426B;
+}
+
+.header-contact__make:hover::before {
+    transform: translateX(10px);
+}
+
+.header-link__text {
+    color: #FEB318; 
+}
+
+.header__content {
+    background: url('../img/header-background.jpg') no-repeat;
+    background-size: 100%;
+    height: 45vw;
+}
+
+/* bienvenue */
+
+.bienvenue {
+    height: 750px;
+}
+
+.bienvenue__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.bienvenue-content__text {
+    position: relative;
+    padding-left: 80px;
+}
+
+.bienvenue-content__text::before {
+    content: '';
+    position: absolute;
+    top: -80px;
+    left: 0;
+    background-color: #00426B;
+    width: 1000px;
+    height: 41vw;
+    z-index: -1;
+}
+
+.bienvenue-text__title {
+    font-family: omega sans;
+    font-size: 6vw;
+    color: #fff;
+}
+
+.bienvenue-text__subtitle {
+    font-family: omega sans;
+    font-size: 2.5vw;
+    color: #fff;
+}
+
+.bienvenue-text__inscription {
+    width: 500px;
+    line-height: 28px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 0.8vw;
+}
+
+.bienvenue-text__denotation {
+    font-size: 1.2vw;
+    margin-top: 60px;
+    color: #fff;
+}
+
+.bienvenue-text__btn {
+    margin-top: 15px;
+}
+
+.bienvenue-btn__link {
+    font-family: omega sans;
+    font-size: 2.5vw;
+    color: #fff;
+}
+
+.bienvenue-btn__link:hover {
+    color: #FEB318; 
+}
+
+.bienvenue-image__item {
+    width: 43vw;
+    height: 31vw;  
+}
+
+/* equipe */
+
+.equipe__top {
+    font-size: 101px;
+    font-family: omega sans; 
+}
+
+.equipe__content {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.equipe-content__item {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #E5DED3;
+    width: 832px;
+    height: 364px;
+    margin: 0 10px;
+}
+
+.equipe-text__title {
+    font-size: 50px;
+    font-family: omega sans; 
+}
+
+.equipe-text__subtitle {
+    font-size: 25px;
+    color: #A7A7A7;
+    margin-top: 5px;
+}
+
+.equipe-text__list ul {
+    margin-top: 30px;
+}
+
+.equipe-text__list li {
+    line-height: 1.8;
+}
+
+.equipe__element {
+    display: flex;
+    justify-content: center;
+}
+
+.equipe-element__colums {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #E5DED3;
+    width: 392px;
+    padding-left: 50px;
+    height: 216px;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+.equipe-colums__text {
+    text-align: center;
+}
+
+.equipe-colums__title {
+    font-size: 25px;
+}
+
+.equipe-colums__text {
+    margin-top: 10px;
+}
+
+/* quote */
+
+.quote {
+    margin-top: 120px;
+    background-color: #00426B;
+    height: 744px;
+}
+
+.quote__content {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 744px;
+}
+
+.quote-text__title {
+    font-size: 101px;
+    font-family: omega sans; 
+    width: 640px;
+    color: #fff;
+}
+
+.quote__img {
+    position: absolute;
+    right: 0;
+}
+
+.quote__img img {
+    width: 1262px;
+    height: 744px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: omega sans; /* Гарнитура шрифта */
+    src: url(../fonts/Omega+Sans+Regular.ttf); /* Путь к файлу со шрифтом */
