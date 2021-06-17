@@ -366,14 +366,24 @@ li {
     .header__bottom {
         flex-wrap: wrap;
     }
+    .header-item__title {
+        padding: 30px;
+        height: 140px;
+    }
     .rooms-content__item {
         flex-wrap:wrap;
+    }
+    .rooms-text__guest {
+        margin-top: 30px;
     }
     .reverse {
         flex-wrap: wrap-reverse;
     }
     .rooms-item__img img {
         width: 100%;
+    }
+    .rooms-item__btn {
+        margin-top: 20px;
     }
     .header-top__contact a {
         padding: 15px 10px;
@@ -391,13 +401,12 @@ li {
         width: 100%;
     }
     .header-content__title h1 {
-        font-size: 30px;
-        padding-top: 120px;
-        width: 260px;
+        font-size: 40px;
+        padding-top: 100px;
         color: #fff;
     }
     .header-content__title p {
-        font-size: 20px;
+        font-size: 30px;
         margin: 0;
         margin-top: 20px;
         float: none;
@@ -406,26 +415,37 @@ li {
     .header-content__btn {
         float: none;
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: 70px;
     }
     .header-btn__link a {
-        padding: 10px 10px;
-        font-size: 8px;
+        padding: 15px 15px;
+        font-size: 15px;
     }
     .header-btn__links {
-        margin-top: 20px;
+        margin-top: 40px;
+    }
+    .rooms-item__inner {
+        width: 100%;
+        height: 400px;
     }
     .header-btn__links a {
-        padding: 8px 10px;
-        font-size: 8px;
+        padding: 15px 20px;
+        font-size: 15px;
         margin-left: 0;
+        border: 2px solid #fff;
+        color: #fff;
     }
     .header-item__title {
         width: 100%;
     }
-    .header-btn__links a {
-        border: 2px solid #fff;
-        color: #fff;
+    .bot-one {
+        background-color: #4e4d4d;
+    }
+    .bot-two {
+        background-color: #535353;
+    }
+    .bot-three {
+        background-color: #5e5e5e; 
     }
     .footer-content__menu {
         display: none;
@@ -434,10 +454,11 @@ li {
         margin-top: 0;
     }
     .rooms-content__item {
-        margin-top: 0;
+        margin-top: 50px;
     }
     .footer {
         margin-top: 0;
+        background-color: burlywood;
     }
     .footer__content {
         padding: 0 40px;
